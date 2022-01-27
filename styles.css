@@ -1,5 +1,5 @@
 .topcont{
-    background-image: linear-gradient(rgb(5, 131, 125), rgba(0, 241, 80, 0.993));              
+    background-image: linear-gradient(rgb(5, 131, 125), rgba(0, 241, 80, 0.993), rgb(5, 131, 125));              
 }
 .navigation_bar{
     font-family: 'Mochiy Pop P One', sans-serif;
@@ -10,6 +10,8 @@
     /* text-align: center; */
     padding:50px 100px 100px 100px;
     line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 .content{
     padding-top:100px;
@@ -22,11 +24,17 @@ a{
     height: 300px;
     border-radius:150px;
 }
-.middlecont{
-    background-image: linear-gradient(rgba(86, 85, 165, 0.822),rgba(8, 255, 152, 0));    
-}
-.middlecontainer{
+.middlecontainer1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
     padding: 100px;
+    background-image: linear-gradient(rgba(86, 85, 165, 0.822),rgba(156, 8, 255, 0.938), rgb(255,255,255));    
+}
+.middlecontainer2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding:100px;
+    background-image: linear-gradient(red, Blue );
 }
 .skills{
     padding: 60px 0px;
@@ -41,6 +49,8 @@ a{
     text-align: center;
 }
 .footer{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     padding:50px 0;
     text-align:center;
     }
