@@ -1,0 +1,49 @@
+.topcont{
+    background-image: linear-gradient(rgb(5, 131, 125), rgba(0, 241, 80, 0.993));              
+}
+.navigation_bar{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    padding:20px 0px;
+}
+.topcontainer{
+    margin: 7% 3% 0% 3%;
+    /* text-align: center; */
+    padding:50px 100px 100px 100px;
+    line-height: 1.5;
+}
+.content{
+    padding-top:100px;
+    padding-left:50px;
+}
+a{
+    text-decoration: #fff;
+}
+.myimg{
+    height: 300px;
+    border-radius:150px;
+}
+.middlecont{
+    background-image: linear-gradient(rgba(86, 85, 165, 0.822),rgba(8, 255, 152, 0));    
+}
+.middlecontainer{
+    padding: 100px;
+}
+.skills{
+    padding: 60px 0px;
+}
+.education{
+    padding:60px,0px;
+}
+.edu{
+    display:inline-block;
+}
+.alert{
+    text-align: center;
+}
+.footer{
+    padding:50px 0;
+    text-align:center;
+    }
+.footer-link{
+    margin:10px 20px;
+}
