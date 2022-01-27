@@ -1,3 +1,18 @@
+@media (max-width :1028px){
+    .topcontainer{
+        text-align: center;
+    }
+    .education{
+        text-align: center;
+    }
+    .skills{
+        text-align: center;
+    }
+    .edu{
+        width:100%;
+    }
+}
+
 .topcont{
     background-image: linear-gradient(rgb(5, 131, 125), rgba(0, 241, 80, 0.993), rgb(5, 131, 125));              
 }
@@ -44,6 +59,7 @@ a{
 }
 .edu{
     display:inline-block;
+    width:33%;
 }
 .alert{
     text-align: center;
@@ -53,7 +69,9 @@ a{
     font-weight: 700;
     padding:50px 0;
     text-align:center;
+    background-color: aquamarine;
     }
 .footer-link{
     margin:10px 20px;
+    color: #000;
 }
