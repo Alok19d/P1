@@ -14,7 +14,13 @@
 }
 
 .topcont{
-    background-image: linear-gradient(rgb(5, 131, 125), rgba(0, 241, 80, 0.993), rgb(5, 131, 125));              
+    background-image: linear-gradient(to bottom right, #204975, #8DC0F7, #4298F5, #204975);              
+}
+.contact-button{
+    background-color:#204975;
+}
+.contact{
+    color:#fff;
 }
 .navigation_bar{
     font-family: 'Mochiy Pop P One', sans-serif;
@@ -29,7 +35,7 @@
     font-weight: 700;
 }
 .content{
-    padding-top:100px;
+    padding-top:80px;
     padding-left:50px;
 }
 a{
@@ -43,13 +49,14 @@ a{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     padding: 100px;
-    background-image: linear-gradient(rgba(86, 85, 165, 0.822),rgba(156, 8, 255, 0.938), rgb(255,255,255));    
+    /* background-image: linear-gradient(rgba(86, 85, 165, 0.822),rgba(156, 8, 255, 0.938), rgb(255,255,255));     */
+    background-image: linear-gradient( to top left,#F5005E, #8F1E49, #C200F5 );
 }
 .middlecontainer2{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     padding:100px;
-    background-image: linear-gradient(red, Blue );
+    background-image: linear-gradient(to bottom right, #F5005E, #8F1E49, #C200F5 );
 }
 .skills{
     padding: 60px 0px;
@@ -64,14 +71,20 @@ a{
 .alert{
     text-align: center;
 }
+#contact{
+    margin: 0, 50px;
+}
 .footer{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     padding:50px 0;
     text-align:center;
-    background-color: aquamarine;
+    background-color: rgb(12, 69, 92);
     }
 .footer-link{
     margin:10px 20px;
-    color: #000;
+    color: #fff;
+}
+.footer-link:hover{
+    color:rgb(0, 99, 129) ;
 }
